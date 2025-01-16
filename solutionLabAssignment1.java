@@ -3,7 +3,6 @@ import java.util.LinkedList;
 public class solutionLabAssignment1 {
     private int vertices;
     private LinkedList<Integer>[] adjacencyList;
-    // Constructor
     @SuppressWarnings("unchecked")
     
     public solutionLabAssignment1(int vertices) {
