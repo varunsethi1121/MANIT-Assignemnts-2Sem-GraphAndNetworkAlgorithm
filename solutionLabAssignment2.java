@@ -20,7 +20,7 @@ public class solutionLabAssignment2 {
         for (int i = 0; i < vertices - 1; i++) {
             for (Edge edge : edges) {
                 int u = edge.source;
-                int v = edge.destination;
+                int v = edge.destination; 
                 int weight = edge.weight;
 
                 if (distance[u] != Integer.MAX_VALUE && distance[u] + weight < distance[v]) {
