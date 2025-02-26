@@ -52,7 +52,7 @@ class Graph {
             System.out.println(i + "\t" + (dist[i] == Integer.MAX_VALUE ? "INF" : dist[i]));
         }
     }
-}
+} 
 public class solutionLabAssignmentBellmanFord2 {
     public static void main(String[] args) {
         int V = 5;
@@ -67,7 +67,6 @@ public class solutionLabAssignmentBellmanFord2 {
         graph.addEdge(3, 2, 5);
         graph.addEdge(3, 1, 1);
         graph.addEdge(4, 3, -3);
-
         graph.bellmanFord(0);
     }
 
