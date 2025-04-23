@@ -61,7 +61,7 @@ class Graph {
     }
 }
 
-public class solutionLabAssignmentDijkstras2 {
+public class solutionLabAssignmentDijkstras {
     public static void main(String[] args) {
         int V = 5;
         Graph graph = new Graph(V);
